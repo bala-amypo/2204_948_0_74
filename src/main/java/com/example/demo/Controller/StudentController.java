@@ -6,5 +6,11 @@ import com.example.demo.entity.*;
 
 @RestController
 public class studentController{
-    
+
+
+    @Autowired
+    StudentService service;
+
+    @GetMapping("/getAllStudent")
+    public List<StudentEntity
 }
