@@ -1,3 +1,10 @@
 package com.example.demo.controller;
 
-import 
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.entity.*;
+
+@RestController
+public class studentController{
+    
+}
