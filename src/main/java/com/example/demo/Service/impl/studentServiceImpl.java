@@ -28,12 +28,13 @@ public class studentServiceImpl implements studentService {
 
     @Override
     public studentEntity getById(Long id) {
-        Optional<studentEntity> data = repo.findById(id);
-        if (data.isPresent()) {
-            return data.get();
-        } else {
-            return null;
-        }
+        // Optional<studentEntity> data = repo.findById(id);
+        // if (data.isPresent()) {
+        //     return data.get();
+        // } else {
+        //     return null;
+        // }
+          
     }
 
     @Override
